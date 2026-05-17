@@ -1,0 +1,41 @@
+/* Couleurs personnalisées pour l'Aéroclub */
+:root {
+  --bleu-aero: #1a365d;
+  --jaune-soleil: #f6ad55;
+}
+
+/* Modification du bouton principal pour coller au thème */
+.btn-primary {
+  background-color: var(--bleu-aero) !important;
+  border-color: var(--bleu-aero) !important;
+}
+
+.btn-primary:hover {
+  background-color: #2a4365 !important;
+}
+
+/* Style de la barre de navigation */
+.navbar {
+  background-color: var(--bleu-aero) !important;
+}
+
+.btn-warning {
+  background-color: var(--jaune-soleil) !important;
+  border-color: var(--jaune-soleil) !important;
+}
+
+/* Conteneur photo au format exact du KX (Ratio 3:2) */
+.ratio-kx {
+  aspect-ratio: 3 / 2;
+  width: 100%;
+  background-color: #f8f9fa;
+  /* Fond gris clair si une image charge mal */
+}
+
+/* Force toutes les images à remplir le conteneur sans se déformer */
+.img-flotte {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}

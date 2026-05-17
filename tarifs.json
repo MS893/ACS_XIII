@@ -1,0 +1,30 @@
+{
+  "double_commande_globale": 5,
+  "avions": {
+    "F_GYKX": {
+      "solo": 170
+    },
+    "F_BVCY": {
+      "solo": 170
+    },
+    "F_HAIX": {
+      "solo": 215
+    }
+  },
+  "cotisations": {
+    "jeune": 125,
+    "adulte": 250,
+    "associe": 125
+  },
+  "licence_ffa": {
+    "standard": 92,
+    "revue": 141
+  },
+  "theorie": {
+    "e_learning": 70,
+    "avantage_jeune": {
+      "manuels": "Offert (Valeur 60€ à 75€)",
+      "carnet": "Offert (Valeur 18€ à 35€)"
+    }
+  }
+}

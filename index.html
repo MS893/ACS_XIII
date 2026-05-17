@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aéroclub du Soleil</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Vos styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Icônes (Optionnel mais recommandé pour les détails) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+  <!-- NAV BAR : Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html"><i class="bi bi-airplane-fill me-2"></i>Aéroclub du Soleil</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="flotte.html">Flotte & tarifs</a></li>
+          <li class="nav-item"><a class="nav-link" href="formations.html">Formations</a></li>
+          <li class="nav-item"><a class="nav-link" href="liens.html">Liens</a></li>
+          <li class="nav-item"><a class="nav-link" href="medias.html">Médias</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <!-- Lien Facebook dans la Nav Bar -->
+          <li class="nav-item px-lg-2">
+            <a class="nav-link text-white-50" href="https://www.facebook.com/PAGE_FACEBOOK" target="_blank" rel="noopener"
+              title="Facebook du club">
+              <i class="bi bi-facebook fs-5"></i><span class="d-lg-none ms-2">Facebook</span>
+            </a>
+          </li>
+          <!-- Bouton d'action pour les membres vers Aerogest-->
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-warning text-dark fw-bold" href="https://online.aerogest.fr/Connection/Logon" target="_blank">Espace Membres</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION : Grand visuel d'accueil court et percutant -->
+  <header class="bg-dark text-white text-center py-5"
+    style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/img/heros/fond-ciel.jpg') no-repeat center center/cover;">
+    <div class="container py-5 my-lg-4">
+      <h1 class="display-3 fw-bold text-uppercase tracking-wide">Prenez de la hauteur avec nous</h1>
+      <p class="lead my-4 mx-auto" style="max-width: 700px;">
+        Bienvenue à l'<strong>Aéroclub du Soleil XIII</strong> sur l'aérodrome d'Aix-les-Milles.
+        Découvrez le plaisir de voler, apprenez à piloter ou perfectionnez vos compétences au sein d'une structure
+        passionnée.
+      </p>
+      <div class="d-grid gap-3 d-sm-flex justify-content-sm-center mt-4">
+        <a href="formations.html" class="btn btn-warning btn-lg px-4 fw-bold text-dark shadow"><i
+            class="bi bi-mortarboard-fill me-2"></i>Devenir Pilote</a>
+        <a href="contact.html" class="btn btn-outline-light btn-lg px-4"><i class="bi bi-gift-fill me-2"></i>Offrir un
+          Baptême</a>
+      </div>
+    </div>
+  </header>
+  
+  <!-- SECTION PRÉSENTATION & ATOUTS (À AJOUTER JUSTE EN DESSOUS) -->
+  <main class="container my-5 py-4">
+  
+    <!-- Présentation Générale -->
+    <div class="row justify-content-center text-center mb-5">
+      <div class="col-lg-9">
+        <h2 class="fw-bold text-dark mb-3">Une école de pilotage agréée et passionnée</h2>
+        <p class="text-muted fs-5 leading-relaxed">
+          Agréé par la Fédération Française Aéronautique (FFA), la Direction Départementale de la Jeunesse et des Sports
+          et la Préfecture des Bouches-du-Rhône, l’Aéroclub du Soleil XIII forme les pilotes de demain. Que vous soyez un
+          jeune souhaitant s'orienter vers une carrière aéronautique ou un passionné désireux de maîtriser le pilotage sur
+          avion monomoteur, notre équipe vous accompagne à chaque étape.
+        </p>
+      </div>
+    </div>
+  
+    <!-- Les 3 Piliers du Club (Grille de cartes) -->
+    <div class="row g-4 text-center">
+  
+      <!-- Bloc 1 : Formations -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm p-4">
+          <div class="card-body">
+            <div class="text-warning display-5 mb-3">
+              <i class="bi bi-card-checklist"></i>
+            </div>
+            <h3 class="h5 fw-bold text-darkcard-title">Licences & Formations</h3>
+            <p class="card-text text-muted small">
+              Préparez vos licences européennes <strong>LAPL</strong> et <strong>PPL</strong>, ou validez de nouvelles
+              compétences et qualifications avec nos instructeurs qualifiés.
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Bloc 2 : La Flotte -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm p-4">
+          <div class="card-body">
+            <div class="text-primary display-5 mb-3">
+              <i class="bi bi-airplane-fill"></i>
+            </div>
+            <h3 class="h5 fw-bold text-dark card-title">Notre Flotte</h3>
+            <p class="card-text text-muted small">
+              Prenez les commandes de nos avions <strong>ROBIN DR400</strong>, reconnus dans le monde entier pour leur
+              fiabilité, parfaits pour l'école, le perfectionnement et le voyage.
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Bloc 3 : L'Histoire -->
+      <div class="col-md-4">
+        <div class="card h-100 border-0 shadow-sm p-4">
+          <div class="card-body">
+            <div class="text-success display-5 mb-3">
+              <i class="bi bi-hourglass-split"></i>
+            </div>
+            <h3 class="h5 fw-bold text-dark card-title">Plus de 60 ans d'histoire</h3>
+            <p class="card-text text-muted small">
+              Créé en 1962 par <strong>Monsieur Paul RICARD</strong> en même temps que l’Aérodrome du Castellet, notre
+              club perpétue aujourd'hui cet héritage historique à Aix-les-Milles.
+            </p>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  
+  </main>
+  
+  <!-- SECTION : Les points forts (Grille Bootstrap) -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row text-center g-4">
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm p-3">
+            <div class="card-body">
+              <i class="bi bi-shield-check display-4 text-primary"></i>
+              <h3 class="card-title h5 mt-3">Sécurité Avant Tout</h3>
+              <p class="card-text text-muted">Une flotte d'avions rigoureusement entretenue par un atelier agréé et des
+                instructeurs certifiés.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm p-3">
+            <div class="card-body">
+              <i class="bi bi-mortarboard display-4 text-primary"></i>
+              <h3 class="card-title h5 mt-3">Formations DTO.0029</h3>
+              <p class="card-text text-muted">Du lâché solo jusqu'à la licence de pilote privé (PPL), apprenez à votre
+                rythme.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 border-0 shadow-sm p-3">
+            <div class="card-body">
+              <i class="bi bi-people display-4 text-primary"></i>
+              <h3 class="card-title h5 mt-3">Esprit Club</h3>
+              <p class="card-text text-muted">Une association de passionnés, des voyages club réguliers et une ambiance
+                conviviale.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-light py-4">
+    <div class="container text-center">
+      <p class="mb-1">&copy; 2026 Aéroclub du Soleil XIII</p>
+      <p class="mb-0">
+        <a href="mentions-legales.html" class="text-secondary text-decoration-none small-link"
+          style="transition: color 0.2s;">Mentions Légales</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
