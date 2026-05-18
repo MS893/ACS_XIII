@@ -2,13 +2,6 @@
 <html lang="fr">
 
 <head>
-  <!-- SCRIPT ANTI-FLASH : À mettre impérativement au tout début du <head> -->
-  <script>
-    (function () {
-      const savedTheme = localStorage.getItem('theme') || 'light';
-      document.documentElement.setAttribute('data-bs-theme', savedTheme);
-    })();
-  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Médias - Aéroclub du Soleil XIII</title>
@@ -20,11 +13,11 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <style>
     /* Petit effet de zoom sympathique au survol des photos */
-    .zoom-effect {
+    .transition-zoom {
       transition: transform 0.3s ease;
     }
 
-    .zoom-effect:hover {
+    .transition-zoom:hover {
       transform: scale(1.03);
     }
   </style>
@@ -41,10 +34,10 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
           <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
           <li class="nav-item"><a class="nav-link" href="flotte.html">Flotte & tarifs</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Formations</a></li>
+          <li class="nav-item"><a class="nav-link" href="formations.html">Formations</a></li>
           <li class="nav-item"><a class="nav-link" href="liens.html">Liens</a></li>
           <li class="nav-item"><a class="nav-link active" href="medias.html">Médias</a></li>
           <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
