@@ -1,15 +1,11 @@
 {
-  "double_commande_globale": 5,
+  "annee": "2026",
+  "vol_decouverte": 150,
+  "double_commande": 5,
   "avions": {
-    "F_GYKX": {
-      "solo": 170
-    },
-    "F_BVCY": {
-      "solo": 170
-    },
-    "F_HAIX": {
-      "solo": 215
-    }
+    "F_GYKX": 170,
+    "F_BVCY": 170,
+    "F_HAIX": 215
   },
   "cotisations": {
     "jeune": 125,
@@ -18,7 +14,7 @@
   },
   "licence_ffa": {
     "standard": 92,
-    "revue": 141
+    "info_pilote": 141
   },
   "theorie": {
     "e_learning": 70,
