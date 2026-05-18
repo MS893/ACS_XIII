@@ -76,36 +76,45 @@
           class="bi bi-play-btn-fill me-2 text-danger"></i>Vidéos du club</h2>
       <div class="row g-4">
 
-        <!-- Vidéo 1 la rade de Marseille -->
-        <!-- Carte Vidéo YouTube Shorts -->
+        <!-- Vidéo 1 la rade de Marseille YouTube Shorts -->
         <div class="col-md-6 col-lg-4">
           <div class="card h-100 border-0 shadow-sm">
             <div class="card-body d-flex flex-column p-4">
+        
+              <!-- En-tête avec logo YouTube -->
               <div class="d-flex align-items-center mb-3">
                 <div class="fs-2 me-3 text-danger">
                   <i class="bi bi-youtube"></i>
                 </div>
                 <div>
-                  <h3 class="h5 card-title fw-bold text-dark mb-0">Vidéo à l'Aéroclub</h3>
-                  <span class="badge bg-danger opacity-75 small">YouTube Shorts</span>
+                  <h3 class="h5 card-title fw-bold text-dark mb-0">Survol de la rade de Marseille et des calanques</h3>
                 </div>
               </div>
         
-              <!-- Lecteur Vidéo Intégré (Ratio vertical 9:16) -->
-              <div class="ratio ratio-9x16 border rounded overflow-hidden mb-3 mx-auto" style="max-width: 280px;">
-                <iframe src="https://www.youtube.com/embed/Tq3hwX_mGbI" title="Vidéo YouTube Aéroclub"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen style="border: 0;">
-                </iframe>
+              <!-- Zone visuelle qui donne envie de cliquer -->
+              <div
+                class="bg-light rounded p-4 text-center my-3 border border-dashed d-flex flex-column align-items-center justify-content-center flex-grow-1"
+                style="min-height: 150px;">
+                <i class="bi bi-play-circle-fill text-danger display-4 mb-2"></i>
+                <span class="fw-bold text-dark small">Vol immersif à l'Aéroclub</span>
+                <span class="text-muted x-small">Format vertical (Short)</span>
               </div>
         
-              <p class="card-text text-muted small text-center mt-auto">
-                Aperçu d'un vol immersif au-dessus de la région, filmé en format vertical.
+              <p class="card-text text-muted small text-center mb-4">
+                Découvrez un aperçu d'un vol au-dessus de la région, filmé en immersion par l'un de nos membres.
               </p>
+        
+              <!-- Le bouton avec le lien direct qui fonctionne à tous les coups -->
+              <div class="mt-auto">
+                <a href="https://www.youtube.com/shorts/Tq3hwX_mGbI" target="_blank" rel="noopener"
+                  class="btn btn-danger w-100 fw-bold bg-gradient d-flex align-items-center justify-content-center py-2">
+                  <i class="bi bi-box-arrow-up-right me-2"></i>Regarder sur YouTube
+                </a>
+              </div>
+        
             </div>
           </div>
         </div>
-        
         <!-- Vidéo 2 (Exemple avec un fichier vidéo MP4 local) -->
         <div class="col-lg-6">
           <div class="card border-0 shadow-sm overflow-hidden">
