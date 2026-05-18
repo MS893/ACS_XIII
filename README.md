@@ -31,6 +31,7 @@ Bienvenue sur le dépôt GitHub du site internet de l'**Aéroclub du Soleil**, b
 ```
 
 ## ⚙️ Mise à jour des Tarifs (Maintenance)
+
 Pour simplifier la gestion du club d'une année sur l'autre, il n'est pas nécessaire de modifier le code HTML pour changer les prix ou l'année. Tout est centralisé dans le fichier tarifs.json.
 
 Pour mettre à jour le site, ouvrez le fichier tarifs.json et modifiez simplement les valeurs :
@@ -45,6 +46,7 @@ JSON
 Les modifications se répercuteront automatiquement sur l'ensemble des pages concernées (la-flotte.html, formations.html...) grâce aux scripts de synchronisation asynchrones (fetch).
 
 ## 🛠️ Technologies utilisées
+
 HTML5 & CSS3
 
 Bootstrap 5.3.3 (Framework CSS & Icônes)
@@ -52,6 +54,7 @@ Bootstrap 5.3.3 (Framework CSS & Icônes)
 JavaScript (ES6) (Requêtes Fetch pour le chargement du JSON)
 
 ## 📦 Déploiement
+
 Ce site est configuré pour être hébergé gratuitement et en un clic via GitHub Pages.
 
 Rendez-vous dans les Settings de ce dépôt GitHub.
