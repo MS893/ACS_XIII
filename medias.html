@@ -93,13 +93,18 @@
         
               <!-- Zone visuelle qui donne envie de cliquer -->
               <div
-                class="bg-light rounded p-4 text-center my-3 border border-dashed d-flex flex-column align-items-center justify-content-center flex-grow-1"
-                style="min-height: 150px;">
-                <i class="bi bi-play-circle-fill text-danger display-4 mb-2"></i>
-                <span class="fw-bold text-dark small">Vol immersif à l'Aéroclub</span>
-                <span class="text-muted x-small">Format vertical (Short)</span>
+                class="position-relative rounded overflow-hidden my-3 border flex-grow-1 d-flex align-items-center justify-content-center"
+                style="min-height: 180px; max-height: 220px;">
+                <!-- L'image de capture de votre vidéo -->
+                <img src="assets/img/image_short.jpg" alt="Aperçu vidéo Aéroclub" class="img-fluid w-100 h-100"
+                  style="object-fit: cover; position: absolute; top: 0; left: 0;">
+              
+                <!-- Voile sombre et icône Play par-dessus l'image -->
+                <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center"
+                  style="background: rgba(0, 0, 0, 0.3);">
+                  <i class="bi bi-play-circle-fill text-white display-3 opacity-90 transition-all" style="cursor: pointer;"></i>
+                </div>
               </div>
-        
               <p class="card-text text-muted small text-center mb-4">
                 Découvrez un aperçu d'un vol au-dessus de la région, filmé en immersion par l'un de nos membres.
               </p>
