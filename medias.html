@@ -76,21 +76,36 @@
           class="bi bi-play-btn-fill me-2 text-danger"></i>Vidéos du club</h2>
       <div class="row g-4">
 
-        <!-- Vidéo 1 (Exemple d'intégration YouTube) -->
-        <div class="col-lg-6">
-          <div class="card border-0 shadow-sm overflow-hidden">
-            <div class="ratio ratio-16x9">
-              <!-- Remplacez l'URL src par votre propre lien d'intégration YouTube si vous en avez un -->
-              <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Vidéo Aéroclub" allowfullscreen></iframe>
-            </div>
-            <div class="card-body">
-              <h3 class="h5 card-title fw-bold">Navigation et paysages vus du ciel</h3>
-              <p class="card-text text-muted small">Un aperçu des vols de navigation réalisés par nos membres au-dessus
-                de la région.</p>
+        <!-- Vidéo 1 la rade de Marseille -->
+        <!-- Carte Vidéo YouTube Shorts -->
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <div class="card-body d-flex flex-column p-4">
+              <div class="d-flex align-items-center mb-3">
+                <div class="fs-2 me-3 text-danger">
+                  <i class="bi bi-youtube"></i>
+                </div>
+                <div>
+                  <h3 class="h5 card-title fw-bold text-dark mb-0">Vidéo à l'Aéroclub</h3>
+                  <span class="badge bg-danger opacity-75 small">YouTube Shorts</span>
+                </div>
+              </div>
+        
+              <!-- Lecteur Vidéo Intégré (Ratio vertical 9:16) -->
+              <div class="ratio ratio-9x16 border rounded overflow-hidden mb-3 mx-auto" style="max-width: 280px;">
+                <iframe src="https://www.youtube.com/embed/Tq3hwX_mGbI" title="Vidéo YouTube Aéroclub"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen style="border: 0;">
+                </iframe>
+              </div>
+        
+              <p class="card-text text-muted small text-center mt-auto">
+                Aperçu d'un vol immersif au-dessus de la région, filmé en format vertical.
+              </p>
             </div>
           </div>
         </div>
-
+        
         <!-- Vidéo 2 (Exemple avec un fichier vidéo MP4 local) -->
         <div class="col-lg-6">
           <div class="card border-0 shadow-sm overflow-hidden">
@@ -158,6 +173,39 @@
               style="object-fit: cover; height: 200px;">
             <div class="card-body p-3">
               <p class="card-text small text-muted mb-0 fw-bold">Félicitations pour ce premier lâché solo !</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION DIVERS -->
+    <section class="mt-5">
+      <h2 class="fw-bold h3 text-dark mb-4 border-bottom pb-2">
+        <i class="bi bi-collection-play-fill text-secondary me-2"></i>Divers
+      </h2>
+    
+      <div class="row">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100 border-0 shadow-sm">
+            <!-- En-tête visuel de la carte -->
+            <div class="card-body d-flex flex-column p-4">
+              <div class="d-flex align-items-center mb-3">
+                <div class="fs-2 me-3" style="color: #1877F2;">
+                  <i class="bi bi-facebook"></i>
+                </div>
+                <div>
+                  <h3 class="h5 card-title fw-bold text-dark mb-0">Le Contrôle Aérien</h3>
+                  <p class="card-text text-muted small">Découvrez le travail des contrôleurs aériens à travers cette vidéo explicative.</p>
+                    </div>
+              </div>
+              <div class="mt-3">
+                <a href="https://www.facebook.com/share/v/1AXjoNPLpB/" target="_blank" rel="noopener"
+                  class="btn btn-primary w-100 fw-bold bg-gradient d-flex align-items-center justify-content-center"
+                  style="background-color: #1877F2; border-color: #1877F2;">
+                  <i class="bi bi-play-btn-fill me-2"></i>Regarder la vidéo
+                </a>
+              </div>
             </div>
           </div>
         </div>
