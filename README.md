@@ -19,8 +19,8 @@ Bienvenue sur le dépôt GitHub du site internet de l'**Aéroclub du Soleil**, b
 │   └── img/                   # Photos de la flotte, captures et fichiers GIF
 │       ├── aerodrome.gif
 │       ├── image_short.jpg
-│       ├── CY_2.jpg
-│       └── ...
+│       ├── flotte             # dossier contenant les photos des 3 avions
+│       └── medias             # dossier contenant les vidéos et photos du club
 ├── tarifs.json                # Fichier de configuration unique pour les prix et l'année
 ├── index.html                 # Page d'accueil
 ├── la-flotte.html             # Présentation des avions et tarifs
