@@ -1,0 +1,6 @@
+{
+  "geminicodeassist.chat.automaticScrolling": true,
+  "geminicodeassist.chat.defaultCodeBlockDisplay": "Collapsed",
+  "geminicodeassist.inlineSuggestions.suggestionSpeed": "Fast",
+  "geminicodeassist.localCodebaseAwareness": true
+}
