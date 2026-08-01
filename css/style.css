@@ -40,7 +40,7 @@
   object-position: center;
 }
 
-/* Effet de survol sur les cartes de liens */
+/* Effet de survol sur les cartes de liens (générique) */
 .card {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -48,6 +48,41 @@
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Cartes interactives (cliquables) */
+.card-interactive {
+  cursor: pointer;
+  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), 
+              box-shadow 0.4s cubic-bezier(0.165, 0.84, 0.44, 1), 
+              border-color 0.3s ease !important;
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+.card-interactive:hover {
+  transform: translateY(-8px) scale(1.02) !important;
+  box-shadow: 0 15px 30px rgba(26, 54, 93, 0.15) !important;
+  border-color: var(--jaune-soleil) !important;
+}
+
+/* Couleur du titre dans les cartes interactives */
+.card-interactive .card-title a {
+  color: #212529;
+  transition: color 0.3s ease;
+}
+
+.card-interactive:hover .card-title a {
+  color: var(--bleu-aero) !important;
+}
+
+/* Animation des icônes pour les cartes interactives au survol */
+.card-interactive .bi {
+  display: inline-block;
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card-interactive:hover .bi {
+  transform: scale(1.2) rotate(8deg);
 }
 
 /* Style spécifique pour le bouton Google Play */
