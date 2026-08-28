@@ -17,7 +17,7 @@ Bienvenue sur le dépôt GitHub du site internet de l'**Aéroclub du Soleil**, b
 │   ├── css/
 │   │   └── style.css          # Styles personnalisés (effets de zoom, ombres)
 │   └── img/                   # Photos de la flotte, captures et fichiers GIF
-│       ├── aerodrome.gif
+│       ├── hangar.jpeg
 │       ├── image_short.jpg
 │       ├── flotte             # dossier contenant les photos des 3 avions
 │       └── medias             # dossier contenant les vidéos et photos du club
