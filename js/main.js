@@ -40,4 +40,22 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch(error => {
       console.error("Impossible de mettre à jour les tarifs :", error);
     });
+
+  // Alternance d'image de fond pour la section Hero sur la page d'accueil
+  const heroHeader = document.getElementById('hero-header');
+  if (heroHeader) {
+    const images = ['assets/img/accueil.jpeg', 'assets/img/hangar.jpeg'];
+    let currentIndex = 0;
+
+    // Préchargement des images pour éviter tout délai visuel
+    images.forEach(src => {
+      const img = new Image();
+      img.src = src;
+    });
+
+    setInterval(() => {
+      currentIndex = (currentIndex + 1) % images.length;
+      heroHeader.style.backgroundImage = `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('${images[currentIndex]}')`;
+    }, 5000);
+  }
 });
